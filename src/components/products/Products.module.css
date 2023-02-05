@@ -1,0 +1,59 @@
+.container {
+    height: 100vh;
+    padding: 0 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.products {
+    display: grid;
+    width: 90%;
+    grid-template-columns: 25% auto;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.menu>li:hover {
+    color: var(--violate);
+    cursor: pointer;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    height: 25rem;
+    border-radius: 15px;
+    gap: 1rem;
+    padding: 10px;
+    overflow-y: scroll;
+    background: linear-gradient(90deg, #3298fd 30%, #f8e267d0 70%);
+}
+
+.product {
+    width: 12rem;
+    height: 8rem;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.product>img {
+    top: 3rem;
+    width: 6rem;
+    height: 11rem;
+
+}
