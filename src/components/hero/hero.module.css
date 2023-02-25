@@ -132,3 +132,14 @@
     font-weight: 800;
     font-size: 2.5rem;
 }
+@media (max-width:500px) {
+    .container{
+        justify-content: center;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr 3fr;
+        height: max-content;
+    }
+    .traffic, .customers,.customers>:first-child {
+        text-align: left;
+    }
+}

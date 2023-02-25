@@ -10,7 +10,6 @@ const Header = () => {
             <span>Amazon</span>
         </div>
         <div className={css.right}>
-          <div className={css.menu}>
             <ul className={css.menu}>
               <li>Collections</li>
               <li>Brands</li>
@@ -18,7 +17,7 @@ const Header = () => {
               <li>Sales</li>
               <li>ENG</li>
             </ul>
-          </div>
+          
             <input className={css.search} type="text" placeholder='Search' />
             <RiShoppingBag3Fill className={css.cart}/>
         </div>
